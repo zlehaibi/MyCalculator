@@ -1,0 +1,50 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+
+    <link rel="stylesheet" type="text/css" href="Calculator.css" />
+  <script src="Calculator.js" type="text/javascript"></script>
+</head>
+<body> 
+    <div class="calculator_form">
+    <form name="myform">
+      <input type="text" id="text" name="display" disabled="disabled"/>
+        <div id="nametype">
+             <p>TEXAS INSTRUMENTS <b><sub style="font-size= 40px;">TI-108</sub></b></p>
+            <img src="solar.JPG" alt="calculator model" />
+        </div>
+        <div class="buttons">
+            <input class="button color" onclick="plusmin()" type="button" value="+/-" />
+            <input class="button color" onclick="squarert('√')" type="button" value="√" />
+            <input class="button color" onclick="per()" type="button" value="%" />
+            <input class="button color space" onclick="myclick('/')" type="button" value="÷" /><br />
+            <input class="button color" id="MRC" onclick="mrc()" type="button" value="MRC" />
+            <input class="button color" onclick="Mminus()" type="button" value="M-" />
+            <input class="button color" onclick="Mplus()" type="button" value="M+" />
+            <input class="button color space" onclick="myclick('*')"type="button" value="x" /><br />
+            <input class="button" onclick="myclick('7')" type="button" value="7" />
+            <input class="button" onclick="myclick('8')" type="button" value="8" />
+            <input class="button" onclick="myclick('9')" type="button" value="9" />
+            <input class="button color space" onclick="myclick('-')"type="button" value="-" /><br />
+            <input class="button" onclick="myclick('4')" type="button" value="4" />
+            <input class="button" onclick="myclick('5')" type="button" value="5" />
+            <input class="button" onclick="myclick('6')" type="button" value="6" />
+            <input class="button color space" onclick="myclick('+')" type="button" value="+" /><br />
+            <input class="button" onclick="myclick('1')" type="button" value="1" />
+            <input class="button" onclick="myclick('2')" type="button" value="2" />
+            <input class="button" onclick="myclick('3')" type="button" value="3" />
+            <input class="button color space" onclick="equalto()" id="equal" type="button" value="=" /><br />
+            <input class="button color" onclick="clearto()" type="button" value="ON/C" />
+            <input class="button" onclick="myclick('0')" type="button" value="0" />
+            <input class="button" onclick="myclick('.')" type="button" value="•" />
+          </div>
+         </form>
+        </div>
+ <!--   <script>
+        src = "Calculator.js"
+    </script> -->
+</body>
+</html>
